@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    Toast mToast;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,11 +31,6 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -48,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btXYZReader: strToast = "Launch XYZ Reader app"; break;
             case R.id.btCapstone: strToast = "Launch Capstone Project app"; break;
         }
-        Toast toast = Toast.makeText(this,strToast,Toast.LENGTH_SHORT);
-        toast.show();
+        if(mToast!=null) mToast.cancel();
+        mToast = Toast.makeText(this,strToast,Toast.LENGTH_SHORT);
+        mToast.show();
     }
 }

@@ -30,11 +30,11 @@
         android:layout_marginLeft="@dimen/activity_button_margin_side"
         android:layout_marginRight="@dimen/activity_button_margin_side"
         android:layout_weight="1"
-        android:background="#F08C35"
+        android:background="@color/button_background"
         android:clickable="true"
         android:enabled="true"
         android:onClick="onButtonsClick"
-        android:shadowColor="#979797"
+        android:shadowColor="@color/button_shadow"
         android:text="@string/button_spotify"
         android:textAllCaps="true" />
 
@@ -47,11 +47,11 @@
         android:layout_marginLeft="@dimen/activity_button_margin_side"
         android:layout_marginRight="@dimen/activity_button_margin_side"
         android:layout_weight="1"
-        android:background="#F08C35"
+        android:background="@color/button_background"
         android:clickable="true"
         android:enabled="true"
         android:onClick="onButtonsClick"
-        android:shadowColor="#979797"
+        android:shadowColor="@color/button_shadow"
         android:text="@string/button_scores"
         android:textAllCaps="true" />
 
@@ -64,11 +64,11 @@
         android:layout_marginLeft="@dimen/activity_button_margin_side"
         android:layout_marginRight="@dimen/activity_button_margin_side"
         android:layout_weight="1"
-        android:background="#F08C35"
+        android:background="@color/button_background"
         android:clickable="true"
         android:enabled="true"
         android:onClick="onButtonsClick"
-        android:shadowColor="#979797"
+        android:shadowColor="@color/button_shadow"
         android:text="@string/button_library"
         android:textAllCaps="true" />
 
@@ -81,11 +81,11 @@
         android:layout_marginLeft="@dimen/activity_button_margin_side"
         android:layout_marginRight="@dimen/activity_button_margin_side"
         android:layout_weight="1"
-        android:background="#F08C35"
+        android:background="@color/button_background"
         android:clickable="true"
         android:enabled="true"
         android:onClick="onButtonsClick"
-        android:shadowColor="#979797"
+        android:shadowColor="@color/button_shadow"
         android:text="@string/button_buildbig"
         android:textAllCaps="true" />
 
@@ -98,11 +98,11 @@
         android:layout_marginLeft="@dimen/activity_button_margin_side"
         android:layout_marginRight="@dimen/activity_button_margin_side"
         android:layout_weight="1"
-        android:background="#F08C35"
+        android:background="@color/button_background"
         android:clickable="true"
         android:enabled="true"
         android:onClick="onButtonsClick"
-        android:shadowColor="#979797"
+        android:shadowColor="@color/button_shadow"
         android:text="@string/button_xyzreader"
         android:textAllCaps="true" />
 
@@ -114,11 +114,11 @@
         android:layout_marginLeft="@dimen/activity_button_margin_side"
         android:layout_marginRight="@dimen/activity_button_margin_side"
         android:layout_weight="1"
-        android:background="#cd1040"
+        android:background="@color/button_capstone"
         android:clickable="true"
         android:enabled="true"
         android:onClick="onButtonsClick"
-        android:shadowColor="#979797"
+        android:shadowColor="@color/button_shadow"
         android:text="@string/button_capstone"
         android:textAllCaps="true"
         android:textColor="@android:color/white" />
